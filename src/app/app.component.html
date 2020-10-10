@@ -12,13 +12,13 @@ id="navbar" class="navbar navbar-dark fixed-top bg-dark">
       class="col-sm-3 col-md-2 sidebar">
     </app-sidebar>
 
-    <div class="col-sm-9" id="dashboard">
-     
+    <!--Below mention classes bring 
+      the component data in center of the page-->
+    <div class="col-sm-9 ml-sm-auto col-md-10 pt-3" id="dashboard">
+      <router-outlet></router-outlet>
     </div>
 
   </div>
 </div>
 
 
-
-<router-outlet></router-outlet>
